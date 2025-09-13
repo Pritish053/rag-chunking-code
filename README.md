@@ -16,7 +16,7 @@ Complete code examples for the Medium article series on RAG chunking strategies.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rag-chunking-strategies.git
+git clone https://github.com/pritishmaheta/rag-chunking-strategies.git
 cd rag-chunking-strategies
 
 # Install dependencies
@@ -170,8 +170,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📬 Contact
 
 - **Author**: Pritish Maheta
-- **Medium**: [Follow the series](https://medium.com/@yourusername)
-- **LinkedIn**: [Connect with me](https://linkedin.com/in/yourusername)
+- **Medium**: [Follow the series](https://medium.com/@pritishmaheta)
+- **LinkedIn**: [Connect with me](https://linkedin.com/in/pritishmaheta)
 
 ## ⭐ Star History
 
