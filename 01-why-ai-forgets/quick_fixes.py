@@ -8,6 +8,18 @@ from typing import List, Optional, Dict, Any
 from dataclasses import dataclass
 
 
+class NaiveChunker:
+    """The problematic naive approach to chunking (for comparison)"""
+
+    def __init__(self, chunk_size: int = 1000):
+        self.chunk_size = chunk_size
+
+    def chunk(self, text: str) -> List[str]:
+        """Naive chunking: just split at fixed character intervals"""
+        return [text[i:i+self.chunk_size]
+                for i in range(0, len(text), self.chunk_size)]
+
+
 @dataclass
 class ChunkWithMetadata:
     """A chunk with additional context information"""

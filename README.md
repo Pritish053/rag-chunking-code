@@ -16,8 +16,8 @@ Complete code examples for the Medium article series on RAG chunking strategies.
 
 ```bash
 # Clone the repository
-git clone https://github.com/pritishmaheta/rag-chunking-strategies.git
-cd rag-chunking-strategies
+git clone https://github.com/Pritish053/rag-chunking-code.git
+cd rag-chunking-code
 
 # Install dependencies
 pip install -r requirements.txt
